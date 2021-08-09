@@ -44,6 +44,23 @@ counter *= 10   --> (100)
 clean_number += 2 * counter
 counter *= 10
 clean_number += 1 * counter
+
+example:
+    a = 101
+    b = 102
+    c = 203
+    clean_a = 11
+    clean_b = 12
+    clean_c = 23
+    clean_c == clean_a + clean_b ---> YES
+
+example:
+    a = 105
+    b = 106
+    c = 211
+    clean_a = 15
+    clean_b = 16
+    clean_c = 31 ---> NO
 """
 
 def remove_zero(number):
@@ -58,6 +75,14 @@ def remove_zero(number):
     return clean_number
 
 if __name__ == '__main__':
-    number = int(input())
-    print(remove_zero(number))
+    a = int(input())
+    b = int(input())
+    c = a + b
+    clean_a = remove_zero(a)
+    clean_b = remove_zero(b)
+    clean_c = remove_zero(c)
+    if clean_c == clean_a + clean_b:
+        print("YES")
+    else:
+        print("NO")
 
