@@ -1,0 +1,6 @@
+Waiters:"1","Lê Công Hiếu","Pha chế",5000
+Waiters:"2","Nguyễn Hiền","Phục vụ",5678
+Manager:"3","Nguyễn Thị Hiền","Bachelor",6784,"Marketing",1000
+Manager:"4","Nguyễn Anh Quân","Bachelor",5555,"Economic",4444
+Research:"5","Nguyễn Anh Quân","Bachelor",5555,"Economic",4444
+Research:"6","Nguyễn Thú","Ph.D",5665,"Advertisement",7777
