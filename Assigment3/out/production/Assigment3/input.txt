@@ -1,0 +1,4 @@
+teacher,Alice Williams,Female,222-333-4444,alice.williams@email.com, 60000.0, 3000.0
+teacher,Charlie Brown,Male,777-888-9999,charlie.brown@email.com, 52000.0, 2200.0
+student,John Doe,Male,123-456-7890,john.doe@example.com,1001,8.5,9.2
+student,Jane Smith,Female,987-654-3210,jane.smith@example.com,1002,7.8,8.9
